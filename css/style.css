@@ -24,7 +24,13 @@ header {
     z-index: 1;
 }
 
-.section:not(.full-width) {
+/* UTILITIES */
+
+.round {
+    border-radius: 20px;
+}
+
+.section {
     padding: 2rem 0;
 }
 
@@ -49,11 +55,6 @@ header {
     width: 50%;
 }
 
-/* SEZIONE II - Slider */
-.slider-img img {
-    border-radius: 20px;
-}
-
 /* SEZIONE III - PS5 */
 .my-card {
     height: 100%;
@@ -68,4 +69,9 @@ header {
 
 .it-takes-two-logo {
     width: 50%;
+}
+
+/* SEZIONE V - new in games */
+.new-in {
+    background-color: var(--my-darkgray);
 }
