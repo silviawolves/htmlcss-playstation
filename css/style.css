@@ -24,6 +24,10 @@ header {
     z-index: 1;
 }
 
+footer {
+    background-color: var(--bs-primary);
+}
+
 /* UTILITIES */
 
 .round {
@@ -80,4 +84,9 @@ header {
 /* SEZIONE IX - PS Now */
 .ps-now {
     background-color: var(--my-darkblue);
+}
+
+/* FOOTER */
+.ps-logo {
+    width: 100px;
 }
