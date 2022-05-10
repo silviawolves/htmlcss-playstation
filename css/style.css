@@ -1,10 +1,19 @@
-@import url(navbar.css);
 @import url(button.css);
+@import url(navbar.css);
 
 :root {
     --my-darkgray: #1F1F1F;
+    --btn-gray: #363636;
     --my-lightgray: #BEBCBB;
     --my-darkblue: #161C3B;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* HEADER */

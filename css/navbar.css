@@ -1,0 +1,17 @@
+.my-navbar {
+    border: 1px dashed plum;
+}
+
+.my-nav-link {
+    color: black;
+    padding: 0 .5rem;
+}
+
+.search-icon {
+    font-size: 1.2rem;
+}
+
+.chevron-down {
+    height: 10px;
+    opacity: .4;
+}

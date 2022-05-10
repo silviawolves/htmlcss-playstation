@@ -1,0 +1,6 @@
+.my-btn {
+    background-color: var(--btn-gray);
+    color: white;
+    border-radius: 25px;
+    padding: .6rem .9rem;
+}
