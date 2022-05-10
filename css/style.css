@@ -16,6 +16,12 @@ a {
     text-decoration: none;
 }
 
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
 /* HEADER */
 .sony-logo {
     height: 15px;
