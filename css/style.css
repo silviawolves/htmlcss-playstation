@@ -33,7 +33,7 @@ header {
     height: 15px;
 }
 
-/* SEZIONE I */
+/* SEZIONE I - Returnal */
 .jumbotron {
     margin-top: 5.55rem;
     background-image: url('../img/jumbo-bg.png');
@@ -45,16 +45,27 @@ header {
     padding-top: 15rem;
 }
 
-.banner-content img {
-    height: 40px;
+.returnal-logo {
+    width: 50%;
 }
 
-/* SEZIONE II */
+/* SEZIONE II - Slider */
 .slider-img img {
     border-radius: 20px;
 }
 
-/* SEZIONE III */
+/* SEZIONE III - PS5 */
 .my-card {
     height: 100%;
+}
+
+/* SEZIONE IV - It Takes Two */
+.it-takes-two {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.it-takes-two-logo {
+    width: 50%;
 }
