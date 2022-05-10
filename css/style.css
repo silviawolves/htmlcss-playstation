@@ -1,0 +1,13 @@
+@import url(navbar.css);
+@import url(button.css);
+
+:root {
+    --my-darkgray: #1F1F1F;
+    --my-lightgray: #BEBCBB;
+    --my-darkblue: #161C3B;
+}
+
+/* HEADER */
+.sony-logo {
+    height: 15px;
+}
