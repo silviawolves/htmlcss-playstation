@@ -49,3 +49,8 @@ header {
 .banner-content img {
     height: 40px;
 }
+
+/* SEZIONE II */
+.round {
+    border-radius: 20px;
+}
