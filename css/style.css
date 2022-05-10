@@ -51,7 +51,7 @@ header {
     padding-top: 15rem;
 }
 
-.returnal-logo {
+.returnal-logo, .it-takes-two-logo {
     width: 50%;
 }
 
@@ -65,10 +65,6 @@ header {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
     background-position: center;
-}
-
-.it-takes-two-logo {
-    width: 50%;
 }
 
 /* SEZIONE V - new in games */
