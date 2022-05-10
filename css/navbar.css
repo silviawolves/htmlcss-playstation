@@ -7,11 +7,20 @@
     padding: 0 .5rem;
 }
 
+.chevron-down {
+    height: 10px;
+    opacity: .4;
+}
+
 .search-icon {
     font-size: 1.2rem;
 }
 
-.chevron-down {
-    height: 10px;
+.hamburger-menu {
+    font-size: 25px;
     opacity: .4;
+    border: 1px solid var(--my-lightgray);
+    border-radius: 5px;
+    padding: 0 .8rem;
+    right: 10px;
 }

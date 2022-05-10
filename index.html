@@ -19,11 +19,11 @@
         </div>
 
         <div class="my-navbar py-1">
-            <div class="container-fluid d-flex align-items-center justify-content-between">
+            <div class="container-fluid d-flex align-items-center position-relative">
 
-                <div class="link-left">
-                    <img src="img/play_logo.svg" alt="playstation logo" class="pe-2">
+                <img src="img/play_logo.svg" alt="playstation logo" class="pe-2">
 
+                <div class="link-left flex-grow-1 d-none d-lg-block">
                     <a href="#" class="my-nav-link">Giochi <img src="img/chevron-down-solid-hover.svg" alt="menu chevron" class="chevron-down"></a>
                     <a href="#" class="my-nav-link">Hardware <img src="img/chevron-down-solid-hover.svg" alt="menu chevron" class="chevron-down"></a>
                     <a href="#" class="my-nav-link">Servizi <img src="img/chevron-down-solid-hover.svg" alt="menu chevron" class="chevron-down"></a>
@@ -32,12 +32,15 @@
                     <a href="#" class="my-nav-link">Supporto <img src="img/chevron-down-solid-hover.svg" alt="menu chevron" class="chevron-down"></a>
                 </div>
 
-                <div class="link-right">
+                <div class="link-right d-none d-lg-block">
                     <a href="#" class="my-nav-link">My PlayStation <img src="img/chevron-down-solid-hover.svg" alt="menu chevron" class="chevron-down"></a>
                     <a href="#" class="my-btn text-white">Accedi</a>
                     <a href="#" class="my-nav-link ps-4"><i class="fa-solid fa-magnifying-glass search-icon"></i></a>
                 </div>
 
+                <div class="hamburger-menu d-block d-lg-none position-absolute">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
 
         </div>
