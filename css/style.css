@@ -36,7 +36,6 @@ header {
 /* SEZIONE I */
 .jumbotron {
     margin-top: 5.55rem;
-    border: 1px dashed red;
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
@@ -51,6 +50,6 @@ header {
 }
 
 /* SEZIONE II */
-.round {
+.slider-img img {
     border-radius: 20px;
 }
