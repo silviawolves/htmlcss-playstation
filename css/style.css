@@ -76,3 +76,8 @@ header {
 .ps-plus {
     background-color: var(--my-lightgray);
 }
+
+/* SEZIONE IX - PS Now */
+.ps-now {
+    background-color: var(--my-darkblue);
+}
