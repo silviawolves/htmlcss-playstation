@@ -30,7 +30,7 @@ header {
     border-radius: 20px;
 }
 
-.section {
+.section:not(.full-width) {
     padding: 2rem 0;
 }
 
@@ -74,4 +74,9 @@ header {
 /* SEZIONE V - new in games */
 .new-in {
     background-color: var(--my-darkgray);
+}
+
+/* SEZIONE VII - PS Plus */
+.ps-plus {
+    background-color: var(--my-lightgray);
 }
