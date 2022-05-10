@@ -18,11 +18,34 @@ a {
 
 header {
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
+}
+
+.section:not(.full-width) {
+    padding: 2rem 0;
 }
 
 /* HEADER */
 .sony-logo {
     height: 15px;
+}
+
+/* SEZIONE I */
+.jumbotron {
+    margin-top: 5.55rem;
+    border: 1px dashed red;
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    padding-top: 15rem;
+}
+
+.banner-content img {
+    height: 40px;
 }
