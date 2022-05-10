@@ -53,3 +53,8 @@ header {
 .slider-img img {
     border-radius: 20px;
 }
+
+/* SEZIONE III */
+.my-card {
+    height: 100%;
+}
