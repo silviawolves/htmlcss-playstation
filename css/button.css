@@ -1,6 +1,22 @@
 .my-btn {
-    background-color: var(--btn-gray);
     color: white;
     border-radius: 25px;
     padding: .6rem .9rem;
+    border: 2px solid rgba(0,0,0,0);
+}
+
+.btn-gray {
+    background-color: var(--btn-gray);
+}
+
+.my-btn.btn-gray:hover {
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--btn-gray);
+}
+
+.my-btn.bg-danger:hover {
+    color: white;
+    border: 2px solid rgba(0,0,0,1);
+    box-shadow: 0 0 0 2px var(--bs-danger);
 }

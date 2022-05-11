@@ -29,7 +29,6 @@ footer {
 }
 
 /* UTILITIES */
-
 .round {
     border-radius: 20px;
 }
@@ -48,7 +47,7 @@ footer {
     margin-top: 5.55rem;
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .banner-content {
@@ -57,6 +56,22 @@ footer {
 
 .returnal-logo, .it-takes-two-logo {
     width: 50%;
+}
+
+/* SEZIONE II - slider */
+.slider-img {
+    border: 2px solid white;
+    transition: transform .15s linear;
+}
+
+.slider-link:focus .slider-img {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--bs-primary);
+    border-radius: 20px;
+}
+
+.slider-link:hover .slider-img {
+    transform: translate(0px, -10px);
 }
 
 /* SEZIONE III - PS5 */
