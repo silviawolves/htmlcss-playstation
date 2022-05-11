@@ -9,6 +9,17 @@
     background-color: var(--btn-gray);
 }
 
+.btn-lightgray {
+    background-color: var(--my-lightergray);
+    color: var(--bs-primary);
+}
+
+.btn-lightgray:hover {
+    color: #F1CC40;
+    border: 2px solid var(--my-lightgray);
+    box-shadow: 0 0 0 2px var(--my-lightergray);
+}
+
 .my-btn.btn-gray:hover {
     color: white;
     border: 2px solid white;
