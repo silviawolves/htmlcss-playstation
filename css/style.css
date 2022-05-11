@@ -75,8 +75,14 @@ footer {
 }
 
 /* SEZIONE III - PS5 */
-.my-card {
-    height: 100%;
+.col-4.col-md {
+    border-bottom: 2px solid white;
+    opacity: .5;
+}
+
+.col-4.col-md:hover {
+    opacity: 1;
+    border-bottom: 2px solid var(--bs-primary);
 }
 
 /* SEZIONE IV - It Takes Two */
