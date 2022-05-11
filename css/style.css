@@ -97,6 +97,11 @@ footer {
     background-color: var(--my-darkgray);
 }
 
+/* SEZIONE VI - PS4 */
+.fa-regular.fa-registered {
+    vertical-align: super;
+}
+
 /* SEZIONE VII - PS Plus */
 .ps-plus {
     background-color: var(--my-lightgray);
