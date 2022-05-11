@@ -14,6 +14,17 @@
     color: var(--bs-primary);
 }
 
+.my-white-btn {
+    background-color: white;
+    color: black;
+}
+
+.my-white-btn:hover {
+    color: var(--bs-primary);
+    border: 2px solid var(--my-darkblue);
+    box-shadow: 0 0 0 2px white;
+}
+
 .btn-lightgray:hover {
     color: #F1CC40;
     border: 2px solid var(--my-lightgray);
