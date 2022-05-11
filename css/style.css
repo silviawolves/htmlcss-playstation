@@ -27,6 +27,7 @@ header {
 
 footer {
     background-color: var(--bs-primary);
+    font-size: .9rem;
 }
 
 /* UTILITIES */
