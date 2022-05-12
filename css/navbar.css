@@ -1,21 +1,6 @@
-.my-navbar {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
-
-.my-nav-link {
-    color: black;
-    padding: 0 .5rem;
-}
-
 .chevron-down {
     height: 10px;
     opacity: .4;
-}
-
-.search-icon {
-    font-size: 1.2rem;
 }
 
 .hamburger-menu {
