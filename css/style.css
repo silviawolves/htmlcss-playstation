@@ -17,14 +17,6 @@ a {
     text-decoration: none;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
 footer {
     background-color: var(--bs-primary);
     font-size: .9rem;
@@ -46,7 +38,6 @@ footer {
 
 /* SEZIONE I - Returnal */
 .jumbotron {
-    margin-top: 5.55rem;
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: top;
