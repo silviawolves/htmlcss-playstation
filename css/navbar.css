@@ -11,3 +11,27 @@
     padding: 0 .8rem;
     right: 10px;
 }
+
+.dropdown-content {
+    background-color: white;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.menu-details {
+    border-bottom: 1px solid lightgray;
+}
+
+.menu-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li .fa-solid.fa-circle {
+    font-size: 8px;
+    color: var(--bs-primary);
+    margin-right: 5px;
+    vertical-align: middle;
+}
