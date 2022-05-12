@@ -105,6 +105,19 @@ footer {
     background-color: var(--my-darkblue);
 }
 
+/* SEZIONE X - social media */
+.social img {
+    transition: border-radius .5s linear, transform .5s ease-out;
+}
+
+.social:hover img {
+    border-radius: 50%;
+}
+
+.social:focus img {
+    transform: scale(1.2);
+}
+
 /* FOOTER */
 .ps-logo {
     width: 100px;

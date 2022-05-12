@@ -26,7 +26,7 @@
 }
 
 .btn-lightgray:hover {
-    color: #F1CC40;
+    color: #fff1be;
     border: 2px solid var(--my-lightgray);
     box-shadow: 0 0 0 2px var(--my-lightergray);
 }
