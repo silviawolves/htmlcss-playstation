@@ -68,12 +68,16 @@ footer {
 }
 
 /* SEZIONE III - PS5 */
-.col-4.col-md {
+.card-link {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    color: black;
     border-bottom: 2px solid white;
     opacity: .5;
 }
 
-.col-4.col-md:hover {
+.card-link:hover {
     opacity: 1;
     border-bottom: 2px solid var(--bs-primary);
 }
