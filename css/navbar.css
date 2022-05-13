@@ -1,3 +1,9 @@
+.my-navbar {
+    padding: .5rem;
+    background-color: white;
+    position: sticky;
+}
+
 .chevron-down {
     height: 10px;
     opacity: .4;
@@ -21,8 +27,7 @@ ul li ul {
     display: none;
 }
 
-ul li:hover ul,
-ul li ul:hover {
+ul li a:focus + .menu-content ul {
     display: block;
 }
 
